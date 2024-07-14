@@ -3,9 +3,9 @@ import frame2 from "../images/Frame2.png";
 
 const Hero = () => {
   return (
-    <div className="w-full h-[538px] flex flex-row items-start gap-9 bg-[#FFF8E7] mt-24 px-8">
+    <div className="w-full  flex flex-row items-start gap-9 bg-[#FFF8E7] px-4">
       <div>
-        <h1 className="text-4xl font-bold mt-28 px-44">
+        <h1 className="text-4xl font-bold mt-64 px-44">
           Define your style <br /> Shop now, discover
         </h1>
         <p className="text-lg mt-4 px-44">
@@ -17,8 +17,8 @@ const Hero = () => {
           Shop Now
         </button>
       </div>
-      <div className='py-2 px-16'>
-        <img src={frame2} alt="" className="w-full h-[530px] object-contain"/>
+      <div className=''>
+        <img src={frame2} alt="" className="  object-contain"/>
       </div>
       
 

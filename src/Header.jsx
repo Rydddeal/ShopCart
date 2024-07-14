@@ -3,10 +3,10 @@ import frame1 from "../src/images/Frame1.png";
 
 const Header = () => {
   return (
-    <div className="flex flex-row justify-between items-center py-8 px-16  gap-[49px] absolute w-[1512px] h-[120px] left-1/2 transform -translate-x-1/2 top-0 bg-[#FFF8E7]">
-      <img src={frame1} alt="logo" className="w-15 h-18 px-12" />
-      <nav className="flex flex-row items-center gap-6  w-full">
-        <ul className="flex flex-row gap-10 list-none m-44">
+    <div className="flex flex-row justify-between items-center  px-12 gap-6  w-full bg-[#FFF8E7]">
+      <img src={frame1} alt="logo" className="w-15 h-18 " />
+      <nav className="flex flex-row items-center gap-13 ml-28 px-24 w-full">
+        <ul className="flex flex-row gap-10 list-none ">
           <li className="text-lg font-medium cursor-pointer hover:text-red-700">
             Home
           </li>
@@ -20,11 +20,11 @@ const Header = () => {
             Contact Us
           </li>
         </ul>
-        <div className="relative">
+        <div className="relative ml-24">
           <input
             type="text"
             placeholder="Search..."
-            className="pl-10 pr-4 py-2 border rounded-full w-44"
+            className="pl-12 py-1.5 border rounded-full "
           />
           <svg
             xmlns="http://www.w3.org/2000/svg"
